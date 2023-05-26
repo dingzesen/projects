@@ -1,8 +1,30 @@
+<template>
+  <main class="gpt">
+    <div class="menu">
+      <MenuList />
+    </div>
+    <div class="content">
+      <RouterView />
+    </div>
+  </main>
+</template>
+
 <script setup>
-import { RouterLink } from 'vue-router'
+import MenuList from './components/MenuList.vue';
+  
 </script>
 
-<template>
-  <RouterView />
-</template>
+<style lang="less">
+.gpt{
+  display: flex;
+  flex-direction: row;
+  .menu{
+    height: 100%;
+  }
+  .content{
+    padding: 10px;
+  }
+}
+
+</style>
 

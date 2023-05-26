@@ -1,9 +1,6 @@
 <template>
-  <main>
-    <el-button>测试</el-button>
-  </main>
+  <div>
+    this is an home page
+  </div>
 </template>
-
-<script setup>
   
-</script>
